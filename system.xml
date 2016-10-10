@@ -1,0 +1,15 @@
+<System>
+	<Local>
+		<playlist>playlist.xml</playlist>
+		<songlist>songlist.xml</songlist>
+		<pitcher>Pitcher_Request.py</pitcher>
+		<player>Player.py</player>
+		<playersys>Player_Sys.py</playersys>
+		<Errlog>error.log</Errlog>
+		<flag>playing</flag>
+		<Volume>Volume.py</Volume>
+	</Local>
+	<Extern>
+		<player stop="pkill mplayer" start="mplayer ">mplayer</player>
+	</Extern>
+</System>
